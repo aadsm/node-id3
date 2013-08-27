@@ -6,7 +6,8 @@
   "contributors": ["Marek Będkowski <marek@bedkowski.pl> (http://thejsteam.com)"],
   "engine": [ "node >=0.2.0" ],
   "dependencies": {
-    "strtok": ">=0.1.0"
+    "strtok": ">=0.1.0",
+    "iconv": ">=2.0.7"
   },
   "main": "lib/id3"
 }
