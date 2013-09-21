@@ -9,5 +9,8 @@
     "strtok": ">=0.1.0",
     "iconv-lite": ">=0.2.11"
   },
-  "main": "lib/id3"
+  "main": "lib/id3",
+  "scripts": {
+    "test": "node test/basic.js"
+  }
 }
