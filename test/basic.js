@@ -18,4 +18,4 @@ console.log(id3_3v2.get('title'));
 id3_4.parse();
 console.log(id3_4.get('composer'));
 
-fs.writeFile('test', id3_4.get('picture').data);
+fs.writeFileSync(process.cwd() + '/test/cover.jpeg', id3_4.get('picture').data);
